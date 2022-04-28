@@ -1,0 +1,39 @@
+[
+  {
+    "products": [],
+    "date": "4/28/2022, 12:32:29 AM",
+    "id": "x7tgsa9iekjcrpretmkkv4"
+  },
+  {
+    "products": [
+      {
+        "stock": 99,
+        "thumbnail": "prueba.jpg",
+        "name": "asdasdas ANDO ",
+        "price": 222,
+        "description": "Tasdast",
+        "code": "00",
+        "timestamp": "4/28/2022, 12:30:12 AM",
+        "id": "nwtykrwue12oh9bchg37x"
+      },
+      {
+        "stock": 99,
+        "thumbnail": "prueba.jpg",
+        "name": "asdasdas ANDO ",
+        "price": 222,
+        "description": "Tasdast",
+        "code": "00",
+        "timestamp": "4/28/2022, 12:30:12 AM",
+        "id": "nwtykrwue12oh9bchg37x"
+      }
+    ],
+    "date": "4/28/2022, 12:32:31 AM",
+    "id": "yi5fc8f6punocewoj27mmc",
+    "timestamp": "4/28/2022, 12:34:51 AM"
+  },
+  {
+    "products": [],
+    "date": "4/28/2022, 12:32:31 AM",
+    "id": "iymckvu655lof0waqvkxr"
+  }
+]

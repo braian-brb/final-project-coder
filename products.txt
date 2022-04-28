@@ -1,0 +1,22 @@
+[
+  {
+    "stock": 99,
+    "thumbnail": "prueba.jpg",
+    "name": "asdasdas ANDO ",
+    "price": 222,
+    "description": "Tasdast",
+    "code": "00",
+    "timestamp": "4/28/2022, 12:30:03 AM",
+    "id": "8jee8oxr3vgs5tjchvnby"
+  },
+  {
+    "stock": 99,
+    "thumbnail": "prueba.jpg",
+    "name": "asdasdas ANDO ",
+    "price": 222,
+    "description": "Tasdast",
+    "code": "00",
+    "timestamp": "4/28/2022, 12:30:12 AM",
+    "id": "nwtykrwue12oh9bchg37x"
+  }
+]
