@@ -8,7 +8,12 @@ import cartsFirebase from '../daos/container/firebase/cartsFirebase.js';
 import productFs from '../daos/container/fs/productsFs.js';
 import cartsFs from '../daos/container/fs/cartsFs.js';
 
-const db = process.env.TIPO_DB || 'firebase';
+import productsArray from './container/memory/productsArray.js';
+import cartsArray from './container/memory/cartsArray.js';
+
+// Options: mongo | firebase | fs | array
+
+const db = process.env.TIPO_DB || 'mongo';
 
 let productsDao;
 let cartsDao;
@@ -26,6 +31,9 @@ if (db == 'mongo') {
 } else if (db == 'fs') {
   productsDao = new productFs();
   cartsDao = new cartsFs();
+} else if (db == 'array') {
+  productsDao = new productsArray();
+  cartsDao = new cartsArray();
 }
 
 export { productsDao, cartsDao };

@@ -30,6 +30,11 @@ const getProductsCart = async (id) => {
   return await cartsDao.getProductsCart(id);
 };
 
+//deleteProductCart
+const deleteProductCart = async (idCart, idProduct) => {
+  return await cartsDao.deleteProductCart(idCart, idProduct);
+};
+
 export {
   createCart,
   getCart,
@@ -38,4 +43,5 @@ export {
   deleteCart,
   addProductCart,
   getProductsCart,
+  deleteProductCart,
 };

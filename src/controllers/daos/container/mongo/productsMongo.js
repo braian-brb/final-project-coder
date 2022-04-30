@@ -36,3 +36,17 @@ export default class productsMongo extends Container {
     return result;
   }
 }
+/* 
+  getProducts
+  getProduct
+  addProduct
+  updateProduct
+  deleteProduct
+  deleteAll
+  
+
+
+
+
+
+*/

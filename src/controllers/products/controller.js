@@ -19,6 +19,8 @@ const addProduct = async (req, res) => {
 
 const updateProduct = async (req, res) => {
   const { id } = req.params;
+
+  // delete req.body.code;
   console.log(`Controller: ${req.body.name}`);
   await productModel.updateProduct(id, req.body);
   return res.status(200).json({ mssg: 'UPDATE' });

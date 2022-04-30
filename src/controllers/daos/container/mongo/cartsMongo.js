@@ -18,16 +18,11 @@ export default class CartsMongo extends Container {
     const cart = await this.getById(id);
     return cart;
   }
-
+  // create new cart with products empty
   async createCart() {
-    const cart = new cartSchema({
-      products: [],
-    });
-    cart.save().then((result) => {
-      return result;
-    });
+    const cart = await this.create();
+    return cart;
   }
-
   async deleteCart(id) {
     const cart = await this.deleteById(id);
     return cart;
@@ -56,8 +51,22 @@ export default class CartsMongo extends Container {
     );
     const deletedItemIndex = cartFind.products.indexOf(productFind);
     cartFind.products.splice(deletedItemIndex, 1);
+    console.log(cartFind);
     await this.update(idCart, cartFind);
 
     return cartFind;
   }
 }
+
+/* 
+getCarts
+getCart
+createCart
+deleteCart
+addProductCart
+getProductsCart
+deleteProductCart
+
+
+
+*/
